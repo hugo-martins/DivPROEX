@@ -1,0 +1,18 @@
+.button-registed {
+  margin-left: auto;
+
+}
+
+.button-register {
+  padding-left: 10px;
+}
+.button-login {
+  padding-left: 10px;
+}
+
+.example-container {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #555;
+}
