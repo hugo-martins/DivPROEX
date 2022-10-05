@@ -1,26 +1,43 @@
-<mat-toolbar >
-  <mat-toolbar-row  class="layout-Menu">
-    <span> {{"app.divulgaPROEX"| translate}}</span>
-    <div>
-      <button mat-button>{{'app.home' | translate }}</button>
-    </div>
-    <div fxLayout="row" fxLayoutAlign = "none center">
-      <button mat-button>{{ 'app.meet.extention' | translate }}</button>
-    </div>
-    <div fxLayout="row" fxLayoutAlign = "none center">
-      <button mat-button>{{ 'app.contact' | translate }}</button>
-    </div>
-    <div fxLayout="row" class="button-registed">
-      <div  fxLayout="row" class= "button-login">
-        <button mat-raised-button> {{'app.login' | translate }}</button>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark b">
+  <div class="container-fluid">
+    <img src="https://cdn-icons-png.flaticon.com/128/3160/3160641.png" alt="" style="width: 50px;">
+
+    <a class="navbar-brand ml-3" href="#">DivulgaPROEX</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-around align-items-end" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+      <div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success ml-3" type="submit">Procurar</button>
+        </form>
       </div>
-      <div  fxLayout="row" class= "button-register">
-        <button mat-raised-button> {{'app.register' | translate }}</button>
-      </div>
+
     </div>
-  </mat-toolbar-row>
-</mat-toolbar>
+  </div>
+</nav>
 
-<router-outlet></router-outlet>
+<div class="container-fluid" style="padding-top: 3rem;">
+  <div class="row">
+    <div class="col-3">
 
+      <app-sidebar (newItemEvent)="sendSelectedButton($event)"></app-sidebar>
 
+    </div>
+    <div class="col-9">
+      <app-list-by-category [category]="this.selectedButton"></app-list-by-category>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+
+<div class="container mt-5">
+  <h3>{{this.category.nome}}</h3>
+</div>
+
+<div *ngIf="this.projetos" class="row">
+
+    <div class="col-3" *ngFor="let projeto of this.projetos">
+        <div class="card m-2" style="width: 100%;">
+            <img class="card-img-top" src="https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p style="font-size: 8pt; text-align: center;">{{projeto.nome}}</p>
+            </div>
+          </div>
+    </div>
+  
+</div>
