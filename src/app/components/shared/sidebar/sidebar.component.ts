@@ -20,7 +20,7 @@ export class SidebarComponent implements OnInit {
       "id": 2,
       "nome": "Cultura"
     },
-	    {
+    {
       "id": 3,
       "nome": "Direitos Humanos e Justiça"
     },    {
