@@ -34,6 +34,7 @@ import { SharedModule } from './components/shared/shared.module';
     MatSidenavModule,
     FlexLayoutModule,
     SharedModule,
+    RouterModule,
     TranslateModule.forRoot({
         loader:{
             provide: TranslateLoader,
