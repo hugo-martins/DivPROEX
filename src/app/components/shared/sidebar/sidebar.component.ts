@@ -14,22 +14,33 @@ export class SidebarComponent implements OnInit {
   public categorias = [
     {
       "id": 1,
-      "nome": "Pensamento Computacional"
+      "nome": "Comunicação"
     },
     {
       "id": 2,
-      "nome": "Matemática"
+      "nome": "Cultura"
     },
-	    {
+    {
       "id": 3,
-      "nome": "Inovação e Tecnologia"
+      "nome": "Direitos Humanos e Justiça"
     },    {
       "id": 4,
-      "nome": "Arte e Cultura"
+      "nome": "Educação"
     },    {
       "id": 5,
-      "nome": "Educação"
+      "nome": "Meio Ambiente"
+    },    {
+      "id": 6,
+      "nome": "Saúde"
+    },    {
+      "id": 7,
+      "nome": "Tecnologia e Produção"
+    },    {
+      "id": 8,
+      "nome": "Trabalho"
     }
+
+
   ]
 
   constructor() { }
