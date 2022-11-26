@@ -1,7 +1,21 @@
 
+<div class=" container d-flex justify-content-between align-items-center mt-5" style="background-color: lightgray; box-shadow: 1rem; height: 4rem;">
+  
+  <form class="d-flex">
+    <input class="form-control me-2" type="search" placeholder="Procurar Projetos" aria-label="Search">
+    <button class="btn btn-outline-dark ml-3" type="submit">Procurar</button>
+  </form>
+  
+  <button type="button" class="btn btn-dark"> Cadastrar projeto</button>
+
+</div>
+
+
 <div class="container mt-5">
   <h3>{{this.category.nome}}</h3>
 </div>
+
+
 
 <div *ngIf="this.projetos" class="row">
 

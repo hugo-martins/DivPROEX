@@ -9,6 +9,7 @@ export class AppComponent implements OnInit {
   title = 'divulgaPROEX';
   selectedButton = ""
   public logged: Boolean;
+  public enter: Boolean;
 
   constructor() {
 
@@ -16,7 +17,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  isLogged(resposta: any){
+  isLogged(resposta: any){    
     this.logged = resposta;
   }
   
@@ -26,6 +27,10 @@ export class AppComponent implements OnInit {
 
   setLogged(){
     this.logged = true;
+  }
+
+  public setEntered(){
+    this.enter = true;
   }
 }
 

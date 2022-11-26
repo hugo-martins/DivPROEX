@@ -8,7 +8,7 @@ const routes: Routes = [
     redirectTo: 'projects'
   },
   {
-    path: 'login',
+    path: 'inicio',
     loadChildren: () => import('./components/components.module').then(m => m.ComponentsModule)
   }
 ];
