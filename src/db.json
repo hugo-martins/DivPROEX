@@ -1,0 +1,243 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "IT GIRLS – PROMOVENDO A IGUALDADE DE GÊNERO EM TECNOLOGIA DA INFORMAÇÃO NO LITORAL NORTE DA PARAÍBA",
+      "descricao": "Com o objetivo de promover a inclusão feminina e igualdade de gênero nos cursos de tecnologia da UFPB - Campus IV,",
+      "categoria_id": 7,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "RESGATE DA CAFEICULTURA NO BREJO PARAIBANO: DESENVOLVIMENTO DA MARCA E DE EMBALAGENS PARA UM PRODUTO DE PRODUÇÃO LOCAL",
+      "descricao":"Para o desenvolvimento da identidade visual da linha de produto, o que inclui a marca, embalagens dentre outras aplicações, o projeto sera desenvolvido através do Método Projetual Guia de Referência para o Desenvolvimento de Projetos - Identificação e Valorização",
+      "categoria_id": 7,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Filosofia e Educação",
+      "descricao": "Promove dessa forma, a divulgação das ações da UFPB e um ambiente de formação aberto e qualificado que se propõem a tratar dos temas clássicos e contemporâneos relativos à Filosofia da Educação.",
+      "categoria_id": 4,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "ECOS: Mostra de Cinema Ambiental - ANO II",
+      "descricao": "A Microrregião do Litoral Norte da Paraíba (MLNP) é composto por municípios pertencentes ao Sistema Costeiro-Marinho, tendo como bioma predominante a Mata Atlântica (IGBE, 2021). É também território em que se encontram os Potiguara (sobretudo nas Terras Indígenas Jacaré de São Domingos e Potiguara de Monte-Mor) e onde ocorreu, ao longo da história (século XX), a implantação da agroindústria e da monocultura de cana-de-açúcar (CARDOSO e GUIMARÃES, 2012). Para além de conflitos territoriais, observam-se conflitos socioambientais que têm se estendido e intensificado por décadas, promovendo a injustiça ambiental e piora na qualidade de vida, sobretudo para as comunidades tradicionais (FIOCRUZ, 2021). Em um mapeamento de conflitos socioambientais, a Fiocruz (2021) aponta, entre os impactos ambientais negativos identificados para municípios da MLNP, o desmatamento e/ou incêndio, a poluição de recursos hídricos, entre outros. O levantamento destaca, ainda, que estes impactos ambientais são, também, consequência da exploração intensiva da cana-de-açúcar, dada ao longo de mais de 30 anos, substituindo áreas de mata por monocultura, induzindo à perda de biodiversidade, erosão, assoreamento de cursos hídricos etc. Em específico aos recursos hídricos relata-se, ainda, o despejo de rejeitos tóxicos (vinhoto) de usinas nos rios Mamanguape e Camaratuba, afetando ecossistemas aquáticos e recursos pesqueiros. ",
+      "categoria_id": 5,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+
+    },
+    {
+      "nome": "UFPB NO COMBATE À COVID-19: promovendo a divulgação de boas práticas na luta contra o vírus na comunidade do Litoral Norte por meio das redes sociais",
+      "descricao": "Esse projeto se justifica pela urgência na prevenção e combate a pandemia causada pela infecção do novo corona vírus, uma vez que o período 2022.1, na UFPB será o definitivamente presencial, portanto devem ser tomadas medidas preventivas para conter a proliferação da COVID-19.",
+      "categoria_id": 1,
+      "id": 5,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Cine Trava: identidades travestis e novas linguagens (2022)",
+      "descricao": "A Cine Trava apresenta duas linhas principais de justificativas: 1) Social: promover, através do artivismo, um melhor bem viver e conviver com as diferenças sexuais, de gênero e raça que existem e resistem no cenário cotidiano da cidade de João Pessoa e em sua região metropolitana, ampliando o debate entre, para e com a população LGBTQIAP+ e não LGBTQIAP+ a respeito de questões ligadas aos temas aqui propostos, com foco na questão identitária travesti; 2) Educativa: contribuir na produção de conhecimentos nas áreas de atuação do projeto, principalmente sobre identidades de gênero, sexualidades e raça.",
+      "categoria_id": 2,
+      "id": 6,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Cajá e Pedro Velho: novas frentes de acesso às memórias visuais e orais de povos atingidos por barragem na Paraíba",
+      "descricao": "O projeto propõe dar continuidade à pesquisa e extensão universitária iniciada em 2016 em um reassentamento de famílias atingidas por barragem, aprovado pelo Edital PROBEX naquele ano sob o título Educação ambiental crítica: projeto de extensão para uma escola do campo. ",
+      "categoria_id": 2,
+      "id": 7,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Apps4Society: Construindo aplicativos que impactem positivamente a sociedade",
+      "descricao": "Este projeto tem como objetivo principal estimular o desenvolvimento de aplicativos e sistemas que possam impactar positivamente a sociedade. Alguns destes aplicativos e sistemas podem ter fins educacionais, como apoiar na alfabetização de crianças, jovens e adultos, ou ensino de computação, e outros podem auxiliar na disseminação de informações, como aplicativos e sistemas voltados ao turismo.",
+      "categoria_id": 7,
+      "id": 8,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "De mãos dadas: diálogos entre design e artesanato",
+      "descricao": "O artesanato materializa as tradições, colabora com rituais e valoriza as peculiaridades de um povo. No Brasil o artesanato ocupa um lugar de relevância tanto culturalmente como economicamente, possibilitando o trabalho e a renda para grande número de pessoas.",
+      "categoria_id": 2,
+      "id": 9,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Laboratório de Matemática como espaço itinerante por meio de exposições e oficinas Pedagógicas",
+      "descricao": "Objetivos gerais Ampliar a parceria entre Universidade e as Escolas públicas da Educação Básica, constituindo-se como uma possibilidade real de contribuir no ensino de matemática para os estudantes nos anos finais do Ensino Fundamental e para a Formação Inicial dos estudantes do Curso de Licenciatura em Matemática do Campus IV – Litoral Norte",
+      "categoria_id": 4,
+      "id": 10,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Primatas do Litoral Norte da Paraíba na escola: Ações de Educação Ambiental",
+      "descricao": "A Educação ambiental abrange aspectos ecológicos, sociais e culturais, promovendo a transformação de conhecimentos pela problematização, a visão crítica com vistas a conservação do meio ambiente e a sustentabilidade (POZZEBO et al., 2018).",
+      "categoria_id": 5,
+      "id": 11,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "CAPACITAÇÃO CONTINUADA: ENSINO DE FILOSOFIA INTERCULTURAL – ENTRELAÇAMENTOS PEDAGÓGICOS/FILOSÓFICOS COM PROFESSORAS/ES POTIGUARA-PB DE FILOSOFIA NO ENSINO MÉDIO",
+      "descricao": "O projeto “Capacitação continuada: Ensino de Filosofia Intercultural – entrelaçamentos pedagógicos/filosóficos com professoras/es Potiguara-PB de filosofia no Ensino Médio” se configura como uma produção de extensão acadêmica no campo do Ensino de Filosofia",
+      "categoria_id": 4,
+      "id": 12,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "EDUCAÇÃO FINANCEIRA DA TRANSFORMAÇÃO AO RESULTADO: A IMPORTÂNCIA DA INTELIGÊNCIA FINANCEIRA NA VIDA DO ALUNO",
+      "descricao": "O presente projeto tem por objetivo geral usar os conceitos apresentados pela Matemática Financeira e pela Estatística como ferramentas para promover uma educação financeira capaz de auxiliar os alunos do Ensino Médio ",
+      "categoria_id": 4,
+      "id": 13,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "PREPARA CONTÁBEIS IV: PREPARATÓRIO PARA TESTES DE CONHECIMENTO COM AULAS, DÚVIDAS E SIMULADOS COM FOCO NO ENADE E EXAME DE SUFICÊNCIA",
+      "descricao": "Ao estudarmos o comportamento dos estudantes em exames e concursos, especialmente aqueles vinculados do curso de ciências contábeis, verificou-se uma insegurança exacerbada, aliada ao fato de termos uma baixa vivência em provas e simulados. Assim auxiliá-los nesse processo de amadurecimento, bem como fomentar nos participantes a desenvolverem suas capacidades cognitivas.",
+      "categoria_id": 4,
+      "id": 14,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "TEXTOS JURÍDICOS. ESTUDOS PARA MODERNIZAÇÃO, ESCLARECIMENTO, FORMAÇÃO DA CIDADANIA E FACILITAÇÃO DE ACESSO AO JUDICIÁRIO NO VALE DO MAMANGUAPE - PB",
+      "descricao": "O projeto propõe desenvolver ações afirmativas de extensão na interface Direito e Linguagem, levando à comunidade acadêmica, formação, informação e educação para os direitos humanos e civis.",
+      "categoria_id": 3,
+      "id": 15,
+      "img": "https://img.freepik.com/fotos-gratis/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?w=996&t=st=1669422901~exp=1669423501~hmac=19c40bc3a410fe4fb8a419cfe7fdb919a4413e1919736c4cd5df8306a4b917a2"
+    },
+    {
+      "nome": "WEB-SIG UFPB: UMA FERRAMENTA PARA ACESSO LIVRE A DISTRIBUIÇÃO ESPACIAL DOS AMBIENTES FÍSICOS DA UFPB",
+      "descricao": "A Universidade Federal da Paraíba é organizada em 4 campi universitários, alguns como o Campus I com estrutura semelhante a uma pequena cidade. Muitas vezes, o público externo e estudantes recém-chegados na UFPB apresentam dificuldades para localizar uma edificação específica como: biblioteca central, restaurante universitário, bancos, o Centro de Referência em Atenção à Saúde ou até mesmo uma sala de aula.",
+      "categoria_id": 1,
+      "id": 16,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Educa Serpentes: Projeto de Práticas de Educação Ambiental para Desmistificação das Serpentes no Nordeste do Brasil (Ano III)",
+      "descricao": "A educação ambiental é um dos meios mais eficientes de transformar este quadro. Desde 2019, o Núcleo de Ecologia de Serpentes da UFPB tem desenvolvido projetos para promover ações educacionais visando a preservação de serpentes, com o intuito de sensibilizar populações do litoral norte do estado da Paraíba. ",
+      "categoria_id": 5,
+      "id": 17,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Ouvir, Refletir e Agir: a sociedade do Vale do Mamanguape e as relações raciais - ano II",
+      "descricao": " projeto, em consonância com os objetivos de desenvolvimento sustentável (ods), mais especificamente o de número 10, que tenciona uma visão estratégica na redução das desigualdades socioeconômicas e no combate às discriminações de todos os tipos, propomos especificamente, no que tange a questões raciais, nas desigualdades que são resultantes do racismo.",
+      "categoria_id": 1,
+      "id": 18,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "PLANTÃO FISCAL",
+      "descricao": "O Projeto em questão será desenvolvido através do método de Pesquisa-ação, ou seja, por meio da interação de sujeitos, sendo eles os alunos extensionistas e os professores supervisores, além do, público foco do projeto. ",
+      "categoria_id": 8,
+      "id": 19,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "EDUCAÇÃO FINANCEIRA E CRIPTOMOEDAS NAS FAMÍLIAS: TRANSITANDO PELO MUNDO DAS MOEDAS DIGITAIS",
+      "descricao": "A proposta deste projeto é tentar levar a educação financeira para as famílias, de modo especial, visando contribuir com esses núcleos familiares do Vale do Mamanguape, como também, abranger os alunos, professores e técnicos do Campus IV da UFPB. ",
+      "categoria_id": 4,
+      "id": 20,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "HORIZONTES DA ECOLOGIA: ENFRENTANDO OS DESAFIOS SOCIOAMBIENTAIS DO LITORAL NORTE PARAIBANO POR MEIO DA EDUCAÇÃO AMBIENTAL",
+      "descricao": "A ecologia enquanto ciência se apresenta em sua juventude epistêmica, uma evidência de tal assertiva se revela no fato da profissão de ecólogo ainda não ser regulamentada no Brasil. ",
+      "categoria_id": 4,
+      "id": 21,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Aprender a ensinar e ensinar a aprender: uma proposta de Alfabetização de pessoas jovens e adultas",
+      "descricao": "No Brasil, como um direito social, a educação é constitucionalmente assegurada a todos e, portanto, considerando o percurso histórico, social e cultural do país, deveria atender efetivamente a sua pluralidade, de forma equigual.",
+      "categoria_id": 4,
+      "id": 22,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "PROJETO EDUCAÇÃO EMPREENDEDORA POPULAR - PEEP",
+      "descricao": "O presente projeto visa contribuir para o desenvolvimento educacional, profissional, econômico e cultural dos empreendedores dos municípios de João Pessoa, Bayeux, Santa Rita e alguns do Vale do Mamanguape.",
+      "categoria_id": 8,
+      "id": 23,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "OBSERVATÓRIO - CIDADÃO NO CONTROLE: CONTROLE SOCIAL E DESENVOLVIMENTO SUSTENTÁVEL NO LITORAL NORTE",
+      "descricao": "o falar-se em Controle Social, surge de imediato à ideia de participação popular no âmbito público, democracia participativa, fiscalização.",
+      "categoria_id": 8,
+      "id": 24,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "A POTENCIALIZAÇÃO DO PROCESSO DE ENSINO-APRENDIZAGEM DA GEOMETRIA ATRAVÉS DE METODOLOGIAS ATIVAS ATRELADAS A ATIVIDADES LÚDICAS E FERRAMENTAS DIGITAIS",
+      "descricao": "Com a eclosão no final do ano de 2019, com um dos maiores problemas de saúde pública, o SARS-CoV-2, trouxe consigo a preocupação em nos adaptar e buscar novas estratégias que possibilitem discussões quanto aos métodos e práticas sobre os recursos usados como facilitadores no processo de ensino e aprendizagem.",
+      "categoria_id": 4,
+      "id": 25,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Ensino de Pensamento Computacional e programação por meio de Robótica",
+      "descricao": "O pensamento computacional, a habilidade de criar algoritmos para a resolução de problemas e o raciocínio lógicos são algumas das habilidades desenvolvidas ao se aprender a programar. ",
+      "categoria_id": 4,
+      "id": 26,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "TRANSGENERIDADE E CISGENERIDADE: CAMINHOS DA MARIA DA PENHA",
+      "descricao": "O projeto de extensão denominado “TRANSGENERIDADE E CISGENERIDADE: CAMINHOS DA MARIA DA PENHA” será executado de forma virtual no ano de 2022 no que tange à realização de lives e terá o formato misto (presencial e por meio virtual) na realização de cursos e workshop.",
+      "categoria_id": 3,
+      "id": 27,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "KUATIAROKA: Organização e Sistematização dos acervos documentais e bibliográficos sobre os povos indígenas na Paraíba.",
+      "descricao": "O projeto prevê três momentos de atuação: 1 - Organização, catalogação e sistematização da documentação pública sobre povos indígenas disponível na sede da Coordenação Regional da FUNAI na Paraíba.",
+      "categoria_id": 3,
+      "id": 28,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Narrativas potiguara: a compreensão de ancestralidade, território e natureza por anciões e anciãs indígenas",
+      "descricao": "O projeto Narrativas potiguara: a compreensão de ancestralidade, território e natureza por anciões e anciãs indígenas será realizado de 01/08/2022 a 31/07/2023 conforme calendário apresentado no EDITAL PROEX Nº 06/2022. a) Seleção de um bolsista potiguara e quatro estudantes voluntários indígenas graduandos dos cursos do CCAE/UFPB (agosto/2022)",
+      "categoria_id": 2,
+      "id": 29,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    },
+    {
+      "nome": "Identidade e Memória da Educação: Educadores Escolares, Pajés, Caciques e lideranças dos Movimentos Sociais do Vale do Mamanguape.",
+      "descricao": "O Projeto tem como objeto a Memória e Identidade da Educação: Escolares, Pajés e Caciques Potiguara e lideranças dos Movimentos Sociais do Vale do Mamanguape.",
+      "categoria_id": 4,
+      "id": 30,
+      "img": "https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Comunicação"
+    },
+    {
+      "id": 2,
+      "nome": "Cultura"
+    },{
+      "id": 3,
+      "nome": "Direitos Humanos e Justiça"
+    },    {
+      "id": 4,
+      "nome": "Educação"
+    },    {
+      "id": 5,
+      "nome": "Meio Ambiente"
+    },    {
+      "id": 6,
+      "nome": "Saúde"
+    },    {
+      "id": 7,
+      "nome": "Tecnologia e Produção"
+    },    {
+      "id": 8,
+      "nome": "Trabalho"
+    }
+  ]
+}

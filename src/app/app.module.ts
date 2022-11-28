@@ -1,4 +1,3 @@
-import { ProjectsModule } from './projects/projects.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,6 +13,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProjectsModule } from './components/projects/projects.module';
 
 
 
@@ -31,6 +31,7 @@ import { AppComponent } from './app.component';
     MatButtonModule,
     MatSidenavModule,
     FlexLayoutModule,
+    RouterModule,
     TranslateModule.forRoot({
         loader:{
             provide: TranslateLoader,
@@ -40,7 +41,7 @@ import { AppComponent } from './app.component';
             defaultLanguage: 'pt'
     }),
     RouterModule,
-    ProjectsModule
+    ProjectsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,56 @@
+<div class="row fixed" style="height: 100vh; position: fixed; width: 260px;">
+  <div class="col text-white bg-light sidebar-light">
+    <div class="d-flex align-items-center justify-content-center text-white pt-4">
+
+      <img src="https://cdn-icons-png.flaticon.com/512/2422/2422208.png" alt="" style="width: 12%;">
+      <!-- <img src="https://cdn-icons-png.flaticon.com/128/3160/3160641.png" alt="" style="width: 20%;"> -->
+      <h3 class="ml-2 mt-3" style="font-weight: 500; color: #343a40;">Categorias</h3>
+    </div>
+
+    <hr style="background-color: gray;">
+
+
+    <ul class="nav nav-pills flex-column" style="color: #343a40;" *ngFor="let category of categorias">
+      <li class="nav-item">
+        <span [ngClass]="{'active': category == this.selectedButton}" class="nav-link pointer" aria-current="page"
+          (click)="setButtonSelect(category)" (click)="sendSelectedButton()">
+          {{category.nome}}
+        </span>
+
+      </li>
+
+    </ul>
+  </div>
+  <div class="divider"></div>
+</div>
+
+
+<!-- <div class="sidebar" style="background-color: red; width: 280px;">
+
+    <div class="flex-shrink-0 p-1 text-white bg-dark" style="width: 280px; height: 100vh;">
+
+      <div class="d-flex align-items-center justify-content-center text-white text-decoration-none">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2422/2422208.png" alt="" style="width: 10%;">
+        <img src="https://cdn-icons-png.flaticon.com/128/3160/3160641.png" alt="" style="width: 20%;">
+        <h3 class="ml-2 mt-3" style="font-weight: 500;">Categorias</h3>
+      </div>
+
+      <hr style="background-color: gray;">
+      <ul class="nav nav-pills flex-column" *ngFor="let category of categories">
+        <li class="nav-item">
+          <span [ngClass]="{'active': category == this.selectedButton}" class="nav-link pointer" aria-current="page" (click)="setButtonSelect(category)">
+            {{category}}
+          </span>
+        </li>
+      </ul>
+      <hr style="background-color: gray;">
+    </div>
+
+    <div class="divider"></div>
+
+
+
+
+
+  </div> -->

@@ -1,0 +1,365 @@
+<div *ngIf="!this.enter">
+  <nav class="navbar navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand">DivulgaPROEX</a>
+      <a class="btn btn-primary" (click)="setEntered()">Entrar</a>
+    </div>
+  </nav>
+  <header class="masthead">
+    <div class="container position-relative">
+      <div class="row justify-content-center">
+        <div class="col-xl-6">
+          <div class="text-center text-white">
+            <h1 class="mb-5">
+              Se inscreva para ficar por dentro dos projetos de extensão da
+              UFPB!
+            </h1>
+            <form
+              class="form-subscribe"
+              id="contactForm"
+              data-sb-form-api-token="API_TOKEN"
+            >
+              <!-- Email address input-->
+              <div class="row">
+                <div class="col">
+                  <input
+                    class="form-control form-control-lg"
+                    id="emailAddress"
+                    type="email"
+                    placeholder="Email Address"
+                    data-sb-validations="required,email"
+                  />
+                  <div
+                    class="invalid-feedback text-white"
+                    data-sb-feedback="emailAddress:required"
+                  >
+                    Email Address is required.
+                  </div>
+                  <div
+                    class="invalid-feedback text-white"
+                    data-sb-feedback="emailAddress:email"
+                  >
+                    Email Address Email is not valid.
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button
+                    class="btn btn-primary btn-lg disabled"
+                    id="submitButton"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+              <!-- Submit success message-->
+              <!---->
+              <!-- This is what your users will see when the form-->
+              <!-- has successfully submitted-->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  <p>To activate this form, sign up at</p>
+                  <a
+                    class="text-white"
+                    href="https://startbootstrap.com/solution/contact-forms"
+                    >https://startbootstrap.com/solution/contact-forms</a
+                  >
+                </div>
+              </div>
+              <!-- Submit error message-->
+              <!---->
+              <!-- This is what your users will see when there is-->
+              <!-- an error submitting the form-->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  Error sending message!
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section
+    class="features-icons bg-light text-center"
+    style="padding-top: 6rem; padding-bottom: 1rem"
+  >
+    <div class="container" style="height: 15rem">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto">
+            <div class="features-icons-icon d-flex">
+              <mat-icon
+                aria-hidden="false"
+                aria-label="Example travel_explore"
+                class="m-auto text-primary"
+                fontIcon="travel_explore"
+                style="font-size: 4rem; width: 100%; height: 100%"
+              ></mat-icon>
+            </div>
+            <h2>Navegue e encontre</h2>
+            <p style="font-size: small; margin-top: -1rem">
+              Navegue a vontade pelo sistema e encontre <br />
+              o projeto de extensão perfeito para você!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto">
+            <div class="features-icons-icon d-flex">
+              <mat-icon
+                aria-hidden="false"
+                aria-label="Example sentiment_very_satisfied"
+                class="m-auto text-primary"
+                fontIcon="sentiment_very_satisfied"
+                style="font-size: 4rem; width: 100%; height: 100%"
+              ></mat-icon>
+            </div>
+            <h2>Fácil de usar</h2>
+            <p style="font-size: small; margin-top: -1rem">
+              Encontre os projetos de extensão da universidade <br />divididos
+              por categorias
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto">
+            <div class="features-icons-icon d-flex">
+              <mat-icon
+                aria-hidden="false"
+                aria-label="Example diversity_1"
+                class="m-auto text-primary"
+                fontIcon="diversity_1"
+                style="font-size: 4rem; width: 100%; height: 100%"
+              ></mat-icon>
+            </div>
+            <h2>Feito para você</h2>
+            <p style="font-size: small; margin-top: -1rem">
+              Navegue a vontade pelo sistema e encontre <br />
+              o projeto de extensão perfeito para você!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <h2 style="margin-top: 5.5rem; margin-left: 8rem">
+            Encontre os projetos!
+          </h2>
+          <p style="font-weight: 100; margin-left: 8rem">
+            Clique em “ENTRAR” e encontre as informações
+            <br />
+            dos mais diversos projetos de extensão ligados
+            <br />
+            a universidade!
+            <br />
+          </p>
+        </div>
+        <div
+          class="col-6"
+          style="
+            height: 20rem;
+            width: 100%;
+            background-image: url(https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728_1280.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        ></div>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-6"
+          style="
+            height: 20rem;
+            width: 100%;
+            background-image: url(https://cdn.pixabay.com/photo/2017/08/06/07/29/lego-2589872_1280.jpg);
+            background-size: cover;
+            background-position: bottom;
+          "
+        ></div>
+        <div class="col-6">
+          <h2 style="margin-top: 5.5rem; margin-left: 8rem">Fácil de Usar!</h2>
+          <p style="font-weight: 100; margin-left: 8rem">
+            Ao consultar a plataforma, você encotra os projetos
+            <br />
+            de extensão da universidade divididos por categorias
+            <br />
+            nas quais são áreas de atuação dos projetos.
+            <br />
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <h2 style="margin-top: 5.5rem; margin-left: 8rem">
+            Feito para a comunidade!
+          </h2>
+          <p style="font-weight: 100; margin-left: 8rem">
+            “A extensão foi sempre um conceito ligado à ideia de
+            <br />
+            função social da universidade e forma pela qual poderia,
+            <br />
+            intervir junto a setores sociais em sua volta” (BOVO, 1999).
+            <br />
+          </p>
+        </div>
+        <div
+          class="col-6"
+          style="
+            height: 20rem;
+            width: 100%;
+            background-image: url(https://cdn.pixabay.com/photo/2019/10/06/10/03/team-4529717_1280.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        ></div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="features-icons bg-light text-center"
+    style="padding-top: 4rem; padding-bottom: 1rem"
+  >
+    <div class="container" style="height: 20rem">
+      <h2
+        class="mb-6"
+        style="text-align: center; font-size: xx-large; font-weight: 600"
+      >
+        O que as pessoas estão falando!
+      </h2>
+      <div class="row" style="margin-top: 3rem">
+        <div class="col-4">
+          <img
+            src="https://cdn.pixabay.com/photo/2019/10/06/10/03/team-4529717_1280.jpg"
+            alt="..."
+            class="rounded-circle"
+            style="width: 50%; height: 10rem"
+          />
+          <p
+            class="mt-2"
+            style="text-align: center; font-weight: 100; font-size: small"
+          >
+            "Esta plataforma tem o potencial incrível devar a universidade para
+            dentro do contexto da comunidade!"
+          </p>
+          <p
+            style="
+              text-align: center;
+              font-weight: 500;
+              font-size: smaller;
+              margin-top: -0.5rem;
+            "
+          >
+            - Douglas Emiliano, egresso de LCC
+          </p>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://cdn.pixabay.com/photo/2019/10/06/10/03/team-4529717_1280.jpg"
+            alt="..."
+            class="rounded-circle"
+            style="width: 50%; height: 10rem"
+          />
+          <p
+            class="mt-2"
+            style="text-align: center; font-weight: 100; font-size: small"
+          >
+            "Esta plataforma tem o potencial incrível devar a universidade para
+            dentro do contexto da comunidade!"
+          </p>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://cdn.pixabay.com/photo/2019/10/06/10/03/team-4529717_1280.jpg"
+            alt="..."
+            class="rounded-circle"
+            style="width: 50%; height: 10rem"
+          />
+          <p
+            class="mt-2"
+            style="text-align: center; font-weight: 100; font-size: small"
+          >
+            "Esta plataforma tem o potencial incrível devar a universidade para
+            dentro do contexto da comunidade!"
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div *ngIf="this.enter">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark b">
+    <div class="container-fluid">
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/3160/3160641.png"
+        alt=""
+        style="width: 50px"
+      />
+
+      <a class="navbar-brand ml-3">DivulgaPROEX</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse d-flex justify-content-around align-items-end"
+        id="navbarCollapse"
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['']"
+              >Início</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{
+              "app.meet.extention" | translate
+            }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{ "app.contact" | translate }}</a>
+          </li>
+        </ul>
+
+        <div>
+          <li>
+            <button class="btn btn-outline-success ml-3" routerLink="/login">
+              LOGIN
+            </button>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" style="padding-top: 3rem">
+    <div class="row">
+      <div class="col-3">
+        <app-sidebar (newItemEvent)="sendSelectedButton($event)"></app-sidebar>
+      </div>
+      <div class="col-9">
+        <app-list-by-category
+          [category]="this.selectedButton"
+        ></app-list-by-category>
+      </div>
+    </div>
+  </div>
+</div>
