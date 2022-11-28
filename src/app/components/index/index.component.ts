@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,11 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class IndexComponent implements OnInit {
 
   title = 'divulgaPROEX';
-  selectedButton = ""
   public logged!: Boolean;
   public enter!: Boolean;
 
-  constructor() {
+  constructor(
+    private router: Router
+  ) {
 
   }
   ngOnInit(): void {
@@ -22,16 +24,14 @@ export class IndexComponent implements OnInit {
     this.logged = resposta;
   }
 
-  sendSelectedButton(resposta: any){
-    this.selectedButton = resposta;
-  }
-
   setLogged(){
     this.logged = true;
   }
 
   public setEntered(){
-    this.enter = true;
+    this.enter = true
+    this.router.navigate(['/home']);
+
   }
 
 }
