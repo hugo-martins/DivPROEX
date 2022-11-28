@@ -1,4 +1,3 @@
-import { ComponentsModule } from './components/components.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -15,7 +14,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjectsModule } from './components/projects/projects.module';
-import { SharedModule } from './components/shared/shared.module';
 
 
 
@@ -33,7 +31,6 @@ import { SharedModule } from './components/shared/shared.module';
     MatButtonModule,
     MatSidenavModule,
     FlexLayoutModule,
-    SharedModule,
     RouterModule,
     TranslateModule.forRoot({
         loader:{
@@ -44,7 +41,6 @@ import { SharedModule } from './components/shared/shared.module';
             defaultLanguage: 'pt'
     }),
     RouterModule,
-    ComponentsModule,
     ProjectsModule,
   ],
   providers: [],

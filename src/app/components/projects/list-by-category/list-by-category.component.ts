@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
@@ -9,7 +10,10 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 export class ListByCategoryComponent implements OnInit, OnChanges{
   @Input() category: any;
   public projetos: any;
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
   }
@@ -17,11 +21,11 @@ export class ListByCategoryComponent implements OnInit, OnChanges{
   ngOnChanges(): void {
       this.http.get(`http://localhost:3000/projetos?categoria_id=${this.category.id}`).subscribe(data => {
       this.projetos = data;
-      console.log(data);  
+      console.log(data);
     })
 
     console.log(this.projetos);
-    
+
   }
 
   fetchProjects(){
@@ -30,9 +34,13 @@ export class ListByCategoryComponent implements OnInit, OnChanges{
     this.http.get("http://localhost:3000/categorias").subscribe(data => {
       this.projetos = data;
       console.log(data);
-      
+
     })
 
+  }
+  goToProjectRecister(){
+    this.router.navigate(['/project-register']);
+    console.log("Teste de registro de projeto")
   }
 
 }

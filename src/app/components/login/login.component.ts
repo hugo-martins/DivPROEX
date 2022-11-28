@@ -9,7 +9,7 @@ import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  public loginForm: FormGroup;
+  public loginForm!: FormGroup;
   @Output() logged = new EventEmitter<boolean>();
 
   constructor(
@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
     // };
     // console.log("entrou");
     // console.log(httpOptions);
-    
+
     // this.http.post("http://localhost:8080/user", this.loginForm.value, httpOptions).subscribe(data => {
     //   console.log(data);
     // })
@@ -54,5 +54,5 @@ export class LoginComponent implements OnInit {
 
   }
 
-  
+
 }

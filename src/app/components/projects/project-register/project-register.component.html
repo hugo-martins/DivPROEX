@@ -1,0 +1,18 @@
+<div class = "container d-colum justify-content align-items-center" style="background-color: rgb(245, 239, 239); box-shadow: 1rem; height: 4rem;">
+  <h1 style="text-align: center;"><b>Informações de cadastro do projeto</b></h1>
+  <form>
+    <div class="form-floating">
+      <label for="floatingTextarea">Título do projeto</label>
+      <textarea class="form-control" placeholder="Título do projeto" formControlName="nameProject" id="floatingTextarea"></textarea>
+    </div>
+    <div class="form-floating">
+      <label for="floatingTextarea2">Informações do projeto</label>
+      <textarea class="form-control" placeholder="Informações do projeto" formControlName="description" id="floatingTextarea2" style="height: 100px"></textarea>
+    </div>
+    <div class="form-floating">
+      <label for="floatingTextarea2">Informações adicionais e Contato</label>
+      <textarea class="form-control" placeholder="Informações do projeto"  formControlName="contact" id="floatingTextarea2" style="height: 100px"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary btn-block mb-6" (click)="onSubmit()">Cadastrar Projeto</button>
+  </form>
+</div>
